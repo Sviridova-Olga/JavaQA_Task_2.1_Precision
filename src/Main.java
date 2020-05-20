@@ -6,14 +6,12 @@ public class Main {
         BigDecimal regularBonus = BigDecimal.valueOf(0.3);
         BigDecimal specialBonus = BigDecimal.valueOf(0.6);
         BigDecimal totalBonus;
-        totalBonus = regularBonus.add( specialBonus);
+        totalBonus = regularBonus.add(specialBonus);
         System.out.println(totalBonus);
 
 
     }
-
-
-    }
+}
 
 
 
